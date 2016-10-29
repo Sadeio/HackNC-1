@@ -31,7 +31,7 @@ bool gameOver = true;
 //MAIN METHOD 
 int main() {
   
-  string word = "";
+  
 
   while(!gameOver) {
     //pass to playGame 
@@ -54,8 +54,9 @@ string challenge(Player p) {
 
 //all the junk that goes with a given round 
 bool playGame(Player p1, Player p2) {
-  makeDictArray();
-
+   makeDictArray();
+  string word = "";
+  while (
   
   
 }
